@@ -1,0 +1,10 @@
+{
+  "name": "Alice",
+  "email": "alice@example.com",
+  "password": "alice123",
+  "age": 25,
+  "gender": "female",
+  "dietary_pref": "vegetarian",
+  "allergies": ["nuts"],
+  "health_goals": "weight loss"
+}

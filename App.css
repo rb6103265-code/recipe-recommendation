@@ -1,0 +1,28 @@
+/* simple clean CSS */
+body { margin:0; font-family: Arial, Helvetica, sans-serif; background:#f3f4f6; color:#222; }
+.container { max-width:1100px; margin:20px auto; padding:20px; }
+header { text-align:center; margin-bottom:16px; }
+h1 { color:#2c7a2c; }
+
+.main { display:flex; gap:20px; align-items:flex-start; }
+
+/* cards */
+.card { background:#fff; border-radius:8px; padding:16px; box-shadow:0 2px 6px rgba(0,0,0,0.06); flex:1; }
+.auth { max-width:360px; }
+.actions { flex:2; }
+
+input { width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #ddd; box-sizing:border-box; }
+button { padding:10px 14px; border-radius:6px; border:none; cursor:pointer; }
+button.primary { background:#2c7a2c; color:#fff; }
+button:hover { opacity:0.95; }
+
+.tabs { display:flex; gap:8px; margin-bottom:10px; }
+.tabs button { flex:1; background:#eee; }
+.tabs button.active { background:#2c7a2c; color:#fff; }
+
+.weather { margin-top:12px; padding:8px; background:#fbfbfb; border-radius:6px; border:1px solid #eee; }
+.recipes { margin-top:12px; display:grid; gap:10px; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); }
+.recipe-card { padding:10px; border-radius:6px; background:#fafafa; border:1px solid #e7e7e7; text-align:center; }
+
+/* only add this */
+
